@@ -1,7 +1,7 @@
 import requests
 import os
 
-url='https://www.facebook.com/images/fb_icon_325x325.png'
+url='https://www.facebook.com/images/fb_icon_325x325.png' #change url into desired image url
 r = requests.get(url) #get method
 
 print(r.headers['Content-Type'])
